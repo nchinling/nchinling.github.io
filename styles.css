@@ -39,3 +39,22 @@ ul {
 li {
     margin-bottom: 10px;
 }
+
+a.one:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a.one:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a.one:active {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a.one:hover {
+    color: rgb(11, 87, 249);
+  }
