@@ -25,7 +25,7 @@ This site provides a list of resources which are useful to software developers a
 ### <a id="editors"></a>Editors
 *[1] [StackEdit - an online MarkDown editor](https://stackedit.io/) 
 
-
+<hr>
 #### Maintained by
 - Ng Chin Ling
 - [Github profile](https://github.com/nchinling)
