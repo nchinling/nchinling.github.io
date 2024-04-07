@@ -9,11 +9,14 @@ This site provides a list of resources which are useful to software developers a
 
 ### <a id="java"></a>Java 
 [1] [Java Design Patterns](https://java-design-patterns.com/)
+
 [2] [Spring Boot](https://spring.io/projects/spring-boot)
+
 [3] [Java Documentation](https://docs.oracle.com/en/java/)
 
 ### <a id="web-development"></a>Web Development
 [1] [React](https://react.dev/)
+
 [2] [Angular Documentation](https://angular.io/docs)
 
 ### <a id="software-design"></a>Software Design 
