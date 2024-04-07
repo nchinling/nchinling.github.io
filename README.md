@@ -1,11 +1,11 @@
 # The Software Development Resource Page
 This site provides a list of resources which are useful to software developers and engineers. It was created to document sites and tools that are useful to my professional and personal work. They are currently divided into the categories below.
 
-* Java
-* Web Development
-* Software Design
-* DevOps
-* Editors 
+* [Java](#java)
+* [Web Development](#web-development)
+* [Software Design](#software-design)
+* [DevOps](#devops)
+* [Editors](#editors)
 
 ## Java 
 [1] [Java Design Patterns](https://java-design-patterns.com/)
