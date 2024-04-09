@@ -1,5 +1,5 @@
 # The Software Development Resource Page
-This site provides a list of resources which are useful to software developers and engineers. It was created to document sites and tools that are useful to my professional and personal work. They are currently divided into the categories below.
+This site provides a list of resources which are useful to software developers and engineers. It is a growing list. They are currently divided into the categories below.
 
 * [Java](#java)
 * [Web Development](#web-development)
