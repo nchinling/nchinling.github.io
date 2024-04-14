@@ -1,4 +1,4 @@
-# The Software Development Resource Page ![](topguncat.png)
+# The Software Development Resource Page 
 This site provides a list of resources which are useful to software developers and engineers. It is a growing list. They are currently divided into the categories below.
 
 * [Java](#java)
@@ -33,8 +33,6 @@ This site provides a list of resources which are useful to software developers a
 [1] [Octodex - Playground and home for all Octocats](https://octodex.github.com/) 
 
 <hr>
-
-![](topguncat.png)
 
 #### Maintained by
 - Ng Chin Ling 🏃🌴
