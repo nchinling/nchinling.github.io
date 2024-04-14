@@ -28,6 +28,9 @@ This site provides a list of resources which are useful to software developers a
 ### <a id="editors"></a>Editors
 [1] [StackEdit - an online MarkDown editor](https://stackedit.io/) 
 
+### <a id="fun"></a>Fun
+[1] [Octodex - Playground and home for all Octocats](https://octodex.github.com/) 
+
 <hr>
 
 #### Maintained by
