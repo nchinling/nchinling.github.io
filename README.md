@@ -6,6 +6,7 @@ This site provides a list of resources which are useful to software developers a
 * [Software Design](#software-design)
 * [DevOps](#devops)
 * [Editors](#editors)
+* [Fun](#fun)
 
 ### <a id="java"></a>Java 
 [1] [Java Design Patterns](https://java-design-patterns.com/)
