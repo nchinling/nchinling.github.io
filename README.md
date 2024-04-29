@@ -30,7 +30,8 @@ This site provides a list of resources which are useful to software developers a
 [1] [StackEdit - an online MarkDown editor](https://stackedit.io/) 
 
 ### <a id="fun"></a>Fun
-[1] [Octodex - Playground and home for all Octocats](https://octodex.github.com/) 
+[1] [Microsoft AI Image Generator](https://create.microsoft.com/en-us/features/ai-image-generator)
+[2] [Octodex - Playground and home for all Octocats](https://octodex.github.com/) 
 
 <hr>
 
