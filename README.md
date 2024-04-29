@@ -31,6 +31,7 @@ This site provides a list of resources which are useful to software developers a
 
 ### <a id="fun"></a>Fun
 [1] [Microsoft AI Image Generator](https://create.microsoft.com/en-us/features/ai-image-generator)
+
 [2] [Octodex - Playground and home for all Octocats](https://octodex.github.com/) 
 
 <hr>
