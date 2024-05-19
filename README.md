@@ -8,12 +8,14 @@ This site provides a list of resources which are useful to software developers a
 * [Editors](#editors)
 * [Fun](#fun)
 
-### <a id="java"></a>Java 
-[1] [Java Design Patterns](https://java-design-patterns.com/)
+### <a id="java"></a>Java
+[1] [The Java Tutorials](https://docs.oracle.com/javase/tutorial/)
 
-[2] [Spring Boot](https://spring.io/projects/spring-boot)
+[2] [Java Design Patterns](https://java-design-patterns.com/)
 
-[3] [Java Documentation](https://docs.oracle.com/en/java/)
+[3] [Spring Boot](https://spring.io/projects/spring-boot)
+
+[4] [Java Documentation](https://docs.oracle.com/en/java/)
 
 ### <a id="web-development"></a>Web Development
 [1] [React](https://react.dev/)
