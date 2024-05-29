@@ -17,6 +17,8 @@ This site provides a list of resources which are useful to software developers a
 
 [4] [Java Documentation](https://docs.oracle.com/en/java/)
 
+[5] [Zip files with Java](https://mkyong.com/java/how-to-compress-files-in-zip-format/)
+
 ### <a id="web-development"></a>Web Development
 [1] [React](https://react.dev/)
 
