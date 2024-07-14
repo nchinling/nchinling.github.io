@@ -29,6 +29,7 @@ This site provides a list of resources which are useful to software developers a
 
 ### <a id="devops"></a>DevOps & SRE
 [1] [Site Reliability Engineering (Google)](https://sre.google/sre-book/table-of-contents/)
+
 [2] [Uli Hitzel's DevOps Course](https://github.com/u1i/devops-course)
 
 ### <a id="editors"></a>Editors
