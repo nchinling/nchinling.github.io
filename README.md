@@ -4,7 +4,8 @@ This site provides a list of resources which are useful to software developers a
 * [Java](#java)
 * [Web Development](#web-development)
 * [Software Design](#software-design)
-* [DevOps](#devops)
+* [DevOps & SRE](#devops)
+* [Monitoring & Telemetry](#monitoring)
 * [Editors](#editors)
 * [Fun](#fun)
 
@@ -31,6 +32,9 @@ This site provides a list of resources which are useful to software developers a
 [1] [Site Reliability Engineering (Google)](https://sre.google/sre-book/table-of-contents/)
 
 [2] [Uli Hitzel's DevOps Course](https://github.com/u1i/devops-course)
+
+### <a id="monitoring"></a>Monitoring & Telemetry
+[1] [Monitoring and Telemtry (Github site)](https://github.com/BINPIPE/monitoring-and-telemetry)
 
 ### <a id="editors"></a>Editors
 [1] [StackEdit - an online MarkDown editor](https://stackedit.io/) 
