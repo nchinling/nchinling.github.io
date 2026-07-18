@@ -1,5 +1,5 @@
 const username = "nchinling";
-const maxRepos = 8;
+const maxRepos = 16;
 
 const repoGrid = document.getElementById("repo-grid");
 const repoTemplate = document.getElementById("repo-card-template");
@@ -180,10 +180,7 @@ function updateThemeToggleLabel(themeName) {
 function applySavedTheme() {
   const root = document.documentElement;
   const saved = localStorage.getItem(THEME_STORAGE_KEY);
-  const preferredDark =
-    window.matchMedia &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const theme = saved || (preferredDark ? "dark" : "light");
+  const theme = saved || "dark";
 
   root.setAttribute("data-theme", theme);
   updateThemeToggleLabel(theme);

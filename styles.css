@@ -42,18 +42,7 @@ body {
   min-height: 100vh;
   font-family: "Space Grotesk", "Segoe UI", sans-serif;
   color: var(--ink);
-  background:
-    radial-gradient(
-      circle at 8% 10%,
-      rgba(16, 185, 129, 0.16),
-      transparent 26%
-    ),
-    radial-gradient(
-      circle at 92% 2%,
-      rgba(185, 139, 47, 0.14),
-      transparent 22%
-    ),
-    linear-gradient(180deg, #f3f7fc 0%, #e8eef7 100%);
+  background: #ffffff;
   line-height: 1.6;
   overflow-x: hidden;
   transition:
@@ -80,11 +69,15 @@ body {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  opacity: 0.1;
+  opacity: 0;
   background-image:
     linear-gradient(rgba(16, 29, 49, 0.045) 1px, transparent 1px),
     linear-gradient(90deg, rgba(16, 29, 49, 0.045) 1px, transparent 1px);
   background-size: 34px 34px;
+}
+
+:root[data-theme="dark"] .bg-noise {
+  opacity: 0.1;
 }
 
 .site-header {
@@ -335,6 +328,10 @@ h1 {
   margin-top: 2rem;
 }
 
+#connect {
+  margin-top: 1.4rem;
+}
+
 .card,
 .connect {
   border: 1px solid var(--line-strong);
@@ -486,11 +483,16 @@ h1 {
 .repo-top h3 {
   margin: 0;
   font-size: 1.1rem;
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .repo-link {
   color: var(--ink);
   text-decoration: none;
+  display: block;
 }
 
 .repo-link:hover,
@@ -595,12 +597,8 @@ footer {
   animation-delay: 220ms;
 }
 
-#resources {
-  animation-delay: 300ms;
-}
-
 #connect {
-  animation-delay: 380ms;
+  animation-delay: 300ms;
 }
 
 @keyframes rise {
@@ -631,6 +629,10 @@ footer {
 
   .theme-toggle {
     width: 100%;
+  }
+
+  #connect {
+    margin-top: 1.2rem;
   }
 
   .hero {
