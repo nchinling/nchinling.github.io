@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ng Chin Ling - software developer profile, featured repositories, and curated engineering resources."
+    />
+    <title>Ng Chin Ling | Builder, Learner, Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top">NCL</a>
+      <nav class="top-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#repos">Repositories</a>
+        <a href="#resources">Resources</a>
+        <a href="#connect">Connect</a>
+      </nav>
+      <button
+        id="theme-toggle"
+        class="theme-toggle"
+        type="button"
+        aria-label="Switch color theme"
+      >
+        Dark Mode
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero reveal">
+        <p class="eyebrow">Hello, I am</p>
+        <h1>Ng Chin Ling</h1>
+        <p class="hero-copy">
+          I build practical software, learn in public, and collect useful
+          resources for engineers. This page is a living snapshot of what I am
+          creating now.
+        </p>
+        <div class="hero-actions">
+          <a
+            class="btn btn-solid"
+            href="https://github.com/nchinling"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View GitHub
+          </a>
+          <a
+            class="btn btn-ghost"
+            href="https://www.ngchinling.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Visit ngchinling.com
+          </a>
+        </div>
+        <div class="stats" id="github-stats" aria-live="polite">
+          <article>
+            <h2 id="repo-count" class="metric-number">--</h2>
+            <p>Public Repositories</p>
+          </article>
+          <article>
+            <h2 id="followers" class="metric-number">--</h2>
+            <p>Followers</p>
+          </article>
+          <article>
+            <h2 id="total-stars" class="metric-number">--</h2>
+            <p>Total Stars</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="card reveal stagger">
+        <h2>About</h2>
+        <p>
+          I enjoy software engineering across backend systems, web applications,
+          and development tooling. I value clean architecture, reliability, and
+          continuous learning.
+        </p>
+        <p>
+          This site can become your single profile hub by combining your best
+          content from
+          <a href="https://www.ngchinling.com/" target="_blank" rel="noreferrer"
+            >ngchinling.com</a
+          >
+          and your live GitHub activity.
+        </p>
+      </section>
+
+      <section id="repos" class="reveal">
+        <div class="section-head">
+          <h2>Featured Repositories</h2>
+          <p>
+            Automatically loaded from GitHub and sorted by recent activity +
+            stars.
+          </p>
+        </div>
+
+        <div
+          id="language-ticker"
+          class="language-ticker"
+          aria-live="polite"
+        ></div>
+
+        <div class="repo-toolbar">
+          <label for="language-filter">Filter by language</label>
+          <select
+            id="language-filter"
+            aria-label="Filter repositories by language"
+          >
+            <option value="all">All Languages</option>
+          </select>
+        </div>
+
+        <div id="repo-grid" class="repo-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="resources" class="card reveal">
+        <h2>Engineering Resource Library</h2>
+        <p>
+          A curated page of learning links is already available on your original
+          GitHub site. Keep it as a dedicated library and connect it here.
+        </p>
+        <a
+          class="btn btn-solid"
+          href="https://nchinling.github.io"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open Resource Page
+        </a>
+      </section>
+
+      <section id="connect" class="connect reveal">
+        <h2>Connect</h2>
+        <div class="connect-links">
+          <a
+            href="https://github.com/nchinling"
+            target="_blank"
+            rel="noreferrer"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/chin-ling-ng/"
+            target="_blank"
+            rel="noreferrer"
+            >LinkedIn</a
+          >
+          <a href="https://www.ngchinling.com/" target="_blank" rel="noreferrer"
+            >ngchinling.com</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built with curiosity, shipped on GitHub Pages.</p>
+    </footer>
+
+    <template id="repo-card-template">
+      <article class="repo-card">
+        <div class="repo-top">
+          <h3><a class="repo-link" target="_blank" rel="noreferrer"></a></h3>
+          <span class="repo-language"></span>
+        </div>
+        <p class="repo-desc"></p>
+        <div class="repo-meta">
+          <span class="repo-stars"></span>
+          <span class="repo-updated"></span>
+        </div>
+      </article>
+    </template>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
