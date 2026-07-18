@@ -1,6 +1,6 @@
 :root {
   --bg: #edf2f8;
-  --paper: #f8fbff;
+  --paper: #ffffff;
   --ink: #101d31;
   --muted: #5b6b84;
   --line: #bfd0e6;
@@ -89,7 +89,7 @@ body {
   align-items: center;
   padding: 1rem 1.2rem;
   backdrop-filter: blur(10px);
-  background: rgba(243, 247, 252, 0.84);
+  background: #ffffff;
   border-bottom: 1px solid rgba(166, 187, 216, 0.7);
 }
 
@@ -114,11 +114,7 @@ body {
 
 .theme-toggle {
   border: 1px solid var(--line-strong);
-  background: linear-gradient(
-    140deg,
-    rgba(248, 251, 255, 0.92),
-    rgba(237, 245, 255, 0.92)
-  );
+  background: #ffffff;
   color: var(--ink);
   border-radius: 0.65rem;
   font-family: "JetBrains Mono", "Consolas", monospace;
@@ -186,11 +182,7 @@ main {
   border: 1px solid var(--line-strong);
   border-radius: 1.4rem;
   background-image:
-    linear-gradient(
-      160deg,
-      rgba(245, 250, 255, 0.86),
-      rgba(235, 244, 255, 0.84)
-    ),
+    linear-gradient(rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.88)),
     url("lujiazui Large.jpeg");
   background-size: cover;
   background-position: 62% 38%;
@@ -288,7 +280,13 @@ h1 {
 .btn-ghost {
   border: 1px solid var(--line-strong);
   color: var(--ink);
-  background: rgba(248, 251, 255, 0.72);
+  background: #ffffff;
+}
+
+:root[data-theme="dark"] .btn-ghost {
+  background: rgba(12, 28, 49, 0.92);
+  color: #f2f7ff;
+  border-color: rgba(86, 122, 166, 0.85);
 }
 
 .stats {
@@ -302,7 +300,7 @@ h1 {
   border: 1px solid var(--line-strong);
   border-radius: 0.9rem;
   padding: 0.9rem;
-  background: linear-gradient(160deg, #f5f9ff, #edf4ff);
+  background: #ffffff;
 }
 
 .stats h2 {
@@ -409,11 +407,7 @@ h1 {
   font-weight: 600;
   letter-spacing: 0.02em;
   color: var(--ink);
-  background: linear-gradient(
-    140deg,
-    rgba(16, 185, 129, 0.16),
-    rgba(185, 139, 47, 0.16)
-  );
+  background: #ffffff;
 }
 
 :root[data-theme="dark"] .ticker-pill {
@@ -436,7 +430,7 @@ h1 {
   border: 1px solid var(--line-strong);
   border-radius: 0.6rem;
   font-family: "JetBrains Mono", "Consolas", monospace;
-  background: #f4f9ff;
+  background: #ffffff;
 }
 
 :root[data-theme="dark"] .repo-toolbar select {
@@ -454,7 +448,7 @@ h1 {
   border: 1px solid var(--line-strong);
   border-radius: 1rem;
   padding: 0.9rem;
-  background: linear-gradient(165deg, #f8fbff, #eef5ff);
+  background: #ffffff;
   transition:
     transform 180ms ease,
     box-shadow 180ms ease;
